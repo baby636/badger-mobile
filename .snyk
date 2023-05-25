@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > @babel/core > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - eslint-config-universe > @typescript-eslint/eslint-plugin > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > @babel/core > @babel/generator > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > babel-preset-fbjs > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > metro-babel-register > @babel/register > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - slp-sdk > babel-register > babel-core > babel-generator > babel-types > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2023-05-25T19:12:03.441Z'
+    - metro-react-native-babel-preset > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > babel-preset-fbjs > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > metro-react-native-babel-preset > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - slp-sdk > babel-register > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - react-native > @react-native-community/cli > metro > babel-preset-fbjs > @babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - jest > @jest/core > @jest/reporters > @jest/environment > @jest/fake-timers > jest-message-util > @jest/test-result > @jest/transform > @babel/core > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - jest > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - jest > @jest/core > @jest/reporters > @jest/environment > @jest/fake-timers > jest-message-util > @jest/test-result > @jest/transform > @babel/core > @babel/generator > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - jest > @jest/core > @jest/reporters > @jest/environment > @jest/fake-timers > jest-message-util > @jest/test-result > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
+    - jest > @jest/core > @jest/reporters > @jest/environment > @jest/fake-timers > jest-message-util > @jest/test-result > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-05-25T19:12:03.441Z'
